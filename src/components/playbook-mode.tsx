@@ -16,7 +16,7 @@ const STEPS = [
   },
 ];
 
-export default function PlaybookMode(): JSX.Element {
+export default function PlaybookMode() {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(0);
   const mounted = useRef(false);
