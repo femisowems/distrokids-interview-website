@@ -662,10 +662,12 @@ export default function InterviewCompanion() {
               </div>
 
               {/* Footer */}
-              <div className="px-6 py-3 border-t border-white/5 bg-black/60 flex items-center justify-between text-[9px] font-mono text-white/50">
-                <span>VOLTA REBRAND PROJECT v1.0.0</span>
-                <span className="hidden sm:inline">DESIGNED WITH HIGH-FIDELITY MARKETING METRICS</span>
-                <span>© 2026 DISTROKID INC</span>
+              <div className="px-6 py-4 border-t border-white/5 bg-black/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-[9px] font-mono text-white/50 text-center sm:text-left">
+                <div className="flex flex-col gap-0.5">
+                  <span>VOLTA REBRAND PROJECT v1.0.0 • INTERVIEW SHOWCASE</span>
+                  <span className="text-[8px] text-white/30">Not affiliated with, endorsed by, or operated by DistroKid.</span>
+                </div>
+                <span className="hidden sm:inline text-right">DESIGNED WITH HIGH-FIDELITY MARKETING METRICS</span>
               </div>
 
             </motion.div>

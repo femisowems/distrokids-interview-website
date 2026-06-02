@@ -1,5 +1,9 @@
 # DistroKid Volta Redux — Immersive Interactive Showcase
 
+> [!IMPORTANT]
+> **Disclaimer & Affiliation Notice**
+> This project was created solely as a design and engineering showcase for an interview process. It is **not affiliated with, endorsed by, or operated by DistroKid**.
+
 An award-winning, creative-dev inspired redesign of the DistroKid marketing portal. Drawing direct creative influence from layout systems, fluid mechanics, typography, and premium storytelling of high-end portfolios, the site is stylized as **“Apple meets A24 meets modern music culture.”**
 
 This project serves as a production-grade demonstration of next-generation interactive design using Next.js, Framer Motion, and Tailwind CSS v4.

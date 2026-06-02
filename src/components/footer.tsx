@@ -97,13 +97,18 @@ export default function Footer() {
         </div>
 
         {/* Legal bottom bar */}
-        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row md:items-center justify-between gap-4 font-mono text-[9px] text-white/40">
-          <span>&copy; {new Date().getFullYear()} DISTROKID INC. ALL RIGHTS RESERVED.</span>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">PRIVACY</a>
-            <a href="#" className="hover:text-white transition-colors">TERMS</a>
-            <a href="#" className="hover:text-white transition-colors">SECURITY</a>
+        <div className="border-t border-white/5 pt-8 flex flex-col gap-4 font-mono text-[9px] text-white/40">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <span>&copy; {new Date().getFullYear()} DISTROKID INC. ALL RIGHTS RESERVED.</span>
+            <div className="flex gap-6">
+              <a href="#" className="hover:text-white transition-colors">PRIVACY</a>
+              <a href="#" className="hover:text-white transition-colors">TERMS</a>
+              <a href="#" className="hover:text-white transition-colors">SECURITY</a>
+            </div>
           </div>
+          <p className="text-[10px] text-white/30 leading-relaxed text-center md:text-left border-t border-white/5 pt-4">
+            Disclaimer: This website is an interactive marketing showcase created as part of an interview process. It is not affiliated with, endorsed by, or operated by DistroKid.
+          </p>
         </div>
       </div>
     </footer>

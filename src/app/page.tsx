@@ -18,10 +18,18 @@ import { navigationLinks } from "@/data/distrokid-data";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-full flex flex-col bg-bg-dark">
+    <div className="relative min-h-screen w-full flex flex-col bg-bg-dark pt-8">
       
+      {/* Top Disclaimer Banner */}
+      <div className="fixed top-0 left-0 right-0 z-[100] bg-[#070708]/95 backdrop-blur-md border-b border-white/5 py-2.5 px-4 text-center text-[9px] sm:text-[10px] font-mono text-white/50 tracking-wider select-none">
+        <span className="inline-flex items-center gap-2">
+          <span className="w-1.5 h-1.5 rounded-full bg-electric-blue animate-pulse" />
+          <span>INTERVIEW SHOWCASE PROJECT • NOT AFFILIATED WITH, ENDORSED BY, OR OPERATED BY DISTROKID</span>
+        </span>
+      </div>
+
       {/* Floating Glassmorphic Header Navbar */}
-      <header className="fixed top-6 left-0 right-0 z-50 w-full max-w-7xl mx-auto px-6 pointer-events-none">
+      <header className="fixed top-12 left-0 right-0 z-50 w-full max-w-7xl mx-auto px-6 pointer-events-none">
         <motion.div
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
